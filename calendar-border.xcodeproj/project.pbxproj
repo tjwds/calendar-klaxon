@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8427AD32C189E0C003FBD58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8427AD22C189E0C003FBD58 /* AppDelegate.swift */; };
+		D8427AE02C189FDB003FBD58 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8427ADF2C189FDB003FBD58 /* main.swift */; };
+		D8427AE22C18A04E003FBD58 /* AutoLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8427AD02C189E0C003FBD58 /* AutoLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D8427AE52C18A067003FBD58 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8427AE42C18A067003FBD58 /* ServiceManagement.framework */; };
+		D88253882C0FAAB8006C5338 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88253872C0FAAB8006C5338 /* AppController.swift */; };
+		D882538C2C0FAC42006C5338 /* MenuBarExtraContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D882538B2C0FAC42006C5338 /* MenuBarExtraContent.swift */; };
+		D88477242C0BA54E00CD8EBE /* calendar_borderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88477232C0BA54E00CD8EBE /* calendar_borderApp.swift */; };
+		D88477282C0BA55000CD8EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88477272C0BA55000CD8EBE /* Assets.xcassets */; };
+		D884772B2C0BA55000CD8EBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D884772A2C0BA55000CD8EBE /* Preview Assets.xcassets */; };
+		D88477332C0BA81800CD8EBE /* BorderWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88477322C0BA81800CD8EBE /* BorderWindowController.swift */; };
+		D88477372C0BAA3D00CD8EBE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D88477362C0BAA3D00CD8EBE /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8427AE12C18A033003FBD58 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				D8427AE22C18A04E003FBD58 /* AutoLauncher.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D8427AD02C189E0C003FBD58 /* AutoLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8427AD22C189E0C003FBD58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8427ADB2C189E0E003FBD58 /* AutoLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoLauncher.entitlements; sourceTree = "<group>"; };
+		D8427ADF2C189FDB003FBD58 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D8427AE42C18A067003FBD58 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		D88253872C0FAAB8006C5338 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		D882538B2C0FAC42006C5338 /* MenuBarExtraContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarExtraContent.swift; sourceTree = "<group>"; };
+		D88477202C0BA54E00CD8EBE /* calendar-border.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calendar-border.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88477232C0BA54E00CD8EBE /* calendar_borderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar_borderApp.swift; sourceTree = "<group>"; };
+		D88477272C0BA55000CD8EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D884772A2C0BA55000CD8EBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D884772C2C0BA55000CD8EBE /* calendar_border.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = calendar_border.entitlements; sourceTree = "<group>"; };
+		D88477322C0BA81800CD8EBE /* BorderWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderWindowController.swift; sourceTree = "<group>"; };
+		D88477362C0BAA3D00CD8EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8427ACD2C189E0C003FBD58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D884771D2C0BA54E00CD8EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8427AE52C18A067003FBD58 /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8427AD12C189E0C003FBD58 /* AutoLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				D8427AD22C189E0C003FBD58 /* AppDelegate.swift */,
+				D8427ADB2C189E0E003FBD58 /* AutoLauncher.entitlements */,
+				D8427ADF2C189FDB003FBD58 /* main.swift */,
+			);
+			path = AutoLauncher;
+			sourceTree = "<group>";
+		};
+		D8427AE32C18A067003FBD58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8427AE42C18A067003FBD58 /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D88477172C0BA54E00CD8EBE = {
+			isa = PBXGroup;
+			children = (
+				D88477362C0BAA3D00CD8EBE /* Info.plist */,
+				D88477222C0BA54E00CD8EBE /* calendar-border */,
+				D8427AD12C189E0C003FBD58 /* AutoLauncher */,
+				D88477212C0BA54E00CD8EBE /* Products */,
+				D8427AE32C18A067003FBD58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D88477212C0BA54E00CD8EBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88477202C0BA54E00CD8EBE /* calendar-border.app */,
+				D8427AD02C189E0C003FBD58 /* AutoLauncher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88477222C0BA54E00CD8EBE /* calendar-border */ = {
+			isa = PBXGroup;
+			children = (
+				D88477232C0BA54E00CD8EBE /* calendar_borderApp.swift */,
+				D88253872C0FAAB8006C5338 /* AppController.swift */,
+				D882538B2C0FAC42006C5338 /* MenuBarExtraContent.swift */,
+				D88477322C0BA81800CD8EBE /* BorderWindowController.swift */,
+				D88477272C0BA55000CD8EBE /* Assets.xcassets */,
+				D884772C2C0BA55000CD8EBE /* calendar_border.entitlements */,
+				D88477292C0BA55000CD8EBE /* Preview Content */,
+			);
+			path = "calendar-border";
+			sourceTree = "<group>";
+		};
+		D88477292C0BA55000CD8EBE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D884772A2C0BA55000CD8EBE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8427ACF2C189E0C003FBD58 /* AutoLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8427ADC2C189E0E003FBD58 /* Build configuration list for PBXNativeTarget "AutoLauncher" */;
+			buildPhases = (
+				D8427ACC2C189E0C003FBD58 /* Sources */,
+				D8427ACD2C189E0C003FBD58 /* Frameworks */,
+				D8427ACE2C189E0C003FBD58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLauncher;
+			productName = AutoLauncher;
+			productReference = D8427AD02C189E0C003FBD58 /* AutoLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D884771F2C0BA54E00CD8EBE /* calendar-border */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D884772F2C0BA55000CD8EBE /* Build configuration list for PBXNativeTarget "calendar-border" */;
+			buildPhases = (
+				D884771C2C0BA54E00CD8EBE /* Sources */,
+				D884771D2C0BA54E00CD8EBE /* Frameworks */,
+				D884771E2C0BA54E00CD8EBE /* Resources */,
+				D8427AE12C18A033003FBD58 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "calendar-border";
+			packageProductDependencies = (
+			);
+			productName = "calendar-border";
+			productReference = D88477202C0BA54E00CD8EBE /* calendar-border.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D88477182C0BA54E00CD8EBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D8427ACF2C189E0C003FBD58 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D884771F2C0BA54E00CD8EBE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = D884771B2C0BA54E00CD8EBE /* Build configuration list for PBXProject "calendar-border" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D88477172C0BA54E00CD8EBE;
+			packageReferences = (
+				D8F7A18F2C164C5D00371A7B /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
+			productRefGroup = D88477212C0BA54E00CD8EBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D884771F2C0BA54E00CD8EBE /* calendar-border */,
+				D8427ACF2C189E0C003FBD58 /* AutoLauncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8427ACE2C189E0C003FBD58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D884771E2C0BA54E00CD8EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D884772B2C0BA55000CD8EBE /* Preview Assets.xcassets in Resources */,
+				D88477282C0BA55000CD8EBE /* Assets.xcassets in Resources */,
+				D88477372C0BAA3D00CD8EBE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8427ACC2C189E0C003FBD58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8427AE02C189FDB003FBD58 /* main.swift in Sources */,
+				D8427AD32C189E0C003FBD58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D884771C2C0BA54E00CD8EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D882538C2C0FAC42006C5338 /* MenuBarExtraContent.swift in Sources */,
+				D88477242C0BA54E00CD8EBE /* calendar_borderApp.swift in Sources */,
+				D88477332C0BA81800CD8EBE /* BorderWindowController.swift in Sources */,
+				D88253882C0FAAB8006C5338 /* AppController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D8427ADD2C189E0E003FBD58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AutoLauncher/AutoLauncher.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2024 © Joseph Woods. All Rights Reserved. ";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Joe-Woods.AutoLauncher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D8427ADE2C189E0E003FBD58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AutoLauncher/AutoLauncher.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2024 © Joseph Woods. All Rights Reserved. ";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Joe-Woods.AutoLauncher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D884772D2C0BA55000CD8EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D884772E2C0BA55000CD8EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D88477302C0BA55000CD8EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "calendar-border/calendar_border.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calendar-border/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "calendar-border/Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2024 © Joseph Woods. All Rights Reserved. ";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Joe-Woods.calendar-border";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D88477312C0BA55000CD8EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "calendar-border/calendar_border.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calendar-border/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "calendar-border/Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2024 © Joseph Woods. All Rights Reserved. ";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Joe-Woods.calendar-border";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8427ADC2C189E0E003FBD58 /* Build configuration list for PBXNativeTarget "AutoLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8427ADD2C189E0E003FBD58 /* Debug */,
+				D8427ADE2C189E0E003FBD58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D884771B2C0BA54E00CD8EBE /* Build configuration list for PBXProject "calendar-border" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D884772D2C0BA55000CD8EBE /* Debug */,
+				D884772E2C0BA55000CD8EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D884772F2C0BA55000CD8EBE /* Build configuration list for PBXNativeTarget "calendar-border" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88477302C0BA55000CD8EBE /* Debug */,
+				D88477312C0BA55000CD8EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8F7A18F2C164C5D00371A7B /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = D88477182C0BA54E00CD8EBE /* Project object */;
+}

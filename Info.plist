@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSUIElement</key>
+	<true/>
+	<key>CFBundleIdentifier</key>
+	<string>coolidentifier</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
+	<string>We need access to your calendar to check for events and notifications.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>We need access to your calendar to check for events and notifications.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>We need access to your calendar to check for events and notifications.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>We need access to your reminders to check for events and notifications.</string>
+</dict>
+</plist>
